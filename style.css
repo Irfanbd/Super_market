@@ -49,3 +49,119 @@ background: linear-gradient(90deg, rgba(255,0,177,1) 0%, rgba(223,0,247,1) 51%, 
         display:block;
         padding: 8px 22px;
     }
+    .banner{
+        width: 80%;
+        height: 70%;
+        top: 15%;
+        left: 300px;
+        position: absolute;
+        color: #fff;
+    }
+    .app-text{
+        width: 50%;
+        float: left;
+    }
+    .app-text h1{
+        font-size:50px;
+        width: 800px;
+        position: relative;
+        margin-left: 40px;
+    }
+    .app-text p{
+        width: 650px;
+        font-size: 15px;
+        margin:30px 0 90px 40px;
+        line-height:25px;
+        font-weight: 600;
+        color:#fff;
+    }
+    .app-picture{
+        width: 50%;
+        float: right;
+    }
+    .app-picture img{
+        width: 80%;
+        margin-top: -30px;
+        padding-left:100px;
+    }
+    .play-btn{
+        margin-left: 40px;
+        display: inline-flex;
+        }
+        .play-btn-inner{
+            height: 70px;
+            width: 70px;
+            border: 2px solid transparent ;
+            border-radius: 50%;
+            background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#FFC300,#19d7f8);
+            background-origin: border-box;
+            background-clip: content-box,border-box;
+            text-align: center;
+        }
+        .play-btn-inner .fa-play{
+            padding: 23px 0;
+            font-size: 25px;
+            cursor:pointer;
+        }
+        small{
+            margin: auto 20px;
+            cursor: pointer;
+            font-size: 12px;
+            color:#19dafa;
+            letter-spacing: 3px;
+        }
+
+        /**about us */
+        .about-us{
+            height: 500px;
+            background: url(image/scattered-forcefields\ \(2\).svg);
+            display: flex;
+           justify-content: center;
+           align-items: center;
+          width: 90%;
+           margin: 0 auto;
+        }
+        .image-sec{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            flex: 1;
+            flex-direction: row;
+        }
+        .image-sec img{
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 2px 3px 4px;
+        }
+        .about-text{
+            flex: 1;
+            
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+        }
+        .about-text h1{
+            font-family: Lobster;
+            font-size: 45px;
+            font-size: 52px;
+  background: -webkit-linear-gradient(#eee, #2cda10);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+            padding: 20px;
+        }
+        .about-text .button-sec{
+            padding: 25px;
+        }
+        .about-text .button-sec button{
+            font-size: 18px;
+            font-family: cursive;
+            box-shadow: 2px 3px 4px ;
+            padding: 10px 25px;
+            border-radius: 10px;
+            background: rgb(44,218,16);
+background: linear-gradient(90deg, rgba(44,218,16,1) 0%, rgba(31,237,221,1) 100%);
+        }
